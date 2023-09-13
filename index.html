@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/3789239bde.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Barlow+Semi+Condensed&family=PT+Serif:ital@1&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <div class="left">Aayush Portfolio</div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home </a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#service">Services </a></li>
+                    <li><a href="#proj">Project </a></li>
+                    <li><a href="#cont">Contact Me </a></li>
+                    <i  class="fa-solid fa-xmark"onclick='closedmenu()'></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick='openmenu()'></i>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Aayush</span>
+                <div>
+                    <div>and I am a Passionate</div>
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="image.png">
+            </div>
+        </section>
+        
+        <div  class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="aayush.jpg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="title-about">About Me</h1>
+                        <p>Motivated Third-year IT student with Knowledge about HTML, CSS, JavaScript, Data Structures and Algorithms, Java. Passionate about web development, problem-solving, and staying updated with the latest advancements in technology. Seeking opportunities to apply my skills and contribute to innovative projects. Let's connect and explore potential collaborations!</p>
+                        <div class="title-tab">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links "onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>JAVA</span><br>Data Structure & Algorithm</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2025</span><br>Bachelor of Engineering in Information Technology at SVIT Vasad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="service"id='service'>
+            <div class="containers">
+                <h1 class="title-about service">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Create Website</h2>
+                        <p>I specialize in creating stunning and responsive websites that cater to your unique needs. Whether you need a personal blog, a portfolio website, or an e-commerce platform, I can bring your vision to life with HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                    <h2>Frontend</h2>
+                    <p>Building dynamic web applications is my passion. I use the latest technologies and frameworks, including React.js and Node.js, to create feature-rich web solutions. Let me turn your ideas into functional and interactive web apps.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                    <h2>UI Design</h2>
+                    <p>User experience is at the heart of every successful digital product. I craft beautiful and intuitive user interfaces (UI) that enhance user satisfaction. From wireframing to prototyping, I pay attention to every detail of your product's design.</p>
+               
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section >  
+            <div class="proj"id='proj'>
+                <h1 class="title-about-project">Project</h1>
+                <div class="project-list">
+                    <div class="project">
+                        <img src="amazonlogo.png">
+                        <div class="project-title">
+                            <h3>Amazon clone</h3>
+                            <p>Made with HTML ,CSS</p>
+                            <p>Use desktop site for mobile</p>
+                            <a href="https://aayush1911.github.io/amazonclone/"target='blank'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="textutil.png">
+                        <div class="project-title">
+                            <h3>TextUtils</h3>
+                            <p>Made with ReactJS</p>
+                            <a href="https://aayushpateltextutils.netlify.app"target='blank'<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <img src="ecommerce.jpg">
+                        <div class="project-title">
+                            <h3>Ecommerce Website</h3>
+                            <p>Made with Reactjs-Redux</p>
+                            <a href="https://aayushpatelecommercewebsite.netlify.app"target='blank'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section>
+            <div class="container">
+                <div class="contact"id="cont">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="title-contact">Contact Me</h1>
+                            <p> <i class="fa-solid fa-envelope"></i>aayush191102@gmail.com</p>
+                            <p> <i class="fa-solid fa-phone"></i>8511844200</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/profile.php?id=100012076872900&mibextid=ZbWKwL"target="blank"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://instagram.com/patel_ius?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"target="blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://github.com/Aayush1911"target="blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="http://www.linkedin.com/in/PatelAayushHareshbhai"target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://twitter.com/Aayush_1911?t=_15WDB2biIINAUvyqguuVw&s=09"target="blank"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <a href="RESUME/AAYUSH RESUME.pdf" download class='btn btn2'>Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text"name="Name"placeholder="Your name" required>
+                                <input type="email"name="Email"placeholder='Your Email' required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit"class='btn btn2'>Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © Aayush <i class="fa-solid fa-heart"></i></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <script src="script.js"></script> -->
+    <script>
+    var tablinks=document.getElementsByClassName('tab-links')
+    var tabcontents=document.getElementsByClassName('tab-contents')
+
+    function opentab(tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add('active-tab')
+    }
+
+    
+    </script>
+    <script>
+        var sidemenubar=document.getElementById('sidemenu')
+        function openmenu(){
+            sidemenubar.style.right="1px";
+        }
+        function closedmenu(){
+            sidemenubar.style.right="-500px"
+            // sidemenubar.style.position='fixed',right='0'
+        }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: [ 'Frontend Developer',"Web Developer"],
+          typeSpeed: 50,
+        });
+      </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXMFlvRbMMkp7yxPIXGOodwzEFriecwQCLjf6jarfg6l6IFU8GuiBoCifFA8rAimjK/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML='Message Sent Successfully'
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
