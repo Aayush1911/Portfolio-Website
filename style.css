@@ -90,6 +90,10 @@ section{
 .about-col-1{
     flex-basis: 35%;
 }
+a{
+    color: indigo;
+    text-decoration:dashed
+}
 .title-about{
     color: rgb(123, 12, 226);
     font-size: 2.5rem;
@@ -435,7 +439,6 @@ nav .fa-solid{
     nav ul {
       flex-direction: column;
       z-index: 2;
-      
     }
     #sidemenu{
         height: 100%;
