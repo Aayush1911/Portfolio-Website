@@ -12,6 +12,7 @@ html{
 }
 #header{
     position: sticky;
+    
 }
 nav{
     display: flex;
@@ -415,6 +416,10 @@ nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width: 600px) {
+    
+    #menu-bar{
+        margin-right: 10px;
+    }
     nav {
       height: auto;
       padding: 20px 0;
@@ -566,6 +571,11 @@ nav .fa-solid{
     }
     .copyright{
         font-size: 14px;
+    }
+    #header {
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
   }
   #msg{
