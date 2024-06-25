@@ -20,11 +20,11 @@
             <div class="left">Aayush Portfolio</div>
             <div class="right">
                 <ul id="sidemenu">
-                    <li><a href="#header">Home </a></li>
-                    <li><a href="#about">About </a></li>
-                    <li><a href="#service">Services </a></li>
-                    <li><a href="#proj">Project </a></li>
-                    <li><a href="#cont">Contact Me </a></li>
+                    <li><a href="#header" onclick="closedmenu()">Home </a></li>
+                    <li><a href="#about"onclick="closedmenu()">About </a></li>
+                    <li><a href="#service"onclick="closedmenu()">Services </a></li>
+                    <li><a href="#proj"onclick="closedmenu()">Project </a></li>
+                    <li><a href="#cont"onclick="closedmenu()">Contact Me </a></li>
                     <i class="fa-solid fa-xmark" onclick='closedmenu()'></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick='openmenu()'></i>
@@ -211,8 +211,9 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['MERN Stack Developer', "Web Developer"],
-            typeSpeed: 50,
+            strings: ['Full Stack Developer','Software Developer','MERN Stack Developer', "Web Developer"],
+            typeSpeed: 100,
+            loop:true
         });
     </script>
     <script>

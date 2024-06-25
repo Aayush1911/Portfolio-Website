@@ -10,6 +10,9 @@ body{
 html{
     scroll-behavior: smooth;
 }
+#header{
+    position: sticky;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -420,7 +423,9 @@ nav .fa-solid{
         text-align: left;
     }
     .firstsection{
-        padding: 100px 40px;
+        padding: 30px 40px;
+        margin-top: 0px;
+        /* font-size: 1.5em; */
     }
     nav .left {
       font-size: 1.2rem;
@@ -543,12 +548,6 @@ nav .fa-solid{
         width: 90%;
         margin: 0 20px;
     }
-
-
-
-
-
-
     .contact-left ,.contact-right{
         flex-basis: 100%;
     }
@@ -574,5 +573,9 @@ nav .fa-solid{
   }
   
   
+
+nav .fa {
+    display: none;
+}
 
 
