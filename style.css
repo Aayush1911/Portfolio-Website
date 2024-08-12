@@ -14,6 +14,10 @@ html{
     position: sticky;
     
 }
+.hidden {
+    display: none;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -260,11 +264,14 @@ a{
     border-radius: 10px;
     overflow: hidden;
     padding-top: 60px;
+    /* width: 50vw; */
 }
 .project-list{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;   
+    margin-top: 50px;
+    flex-wrap: wrap;
+    /* flex-basis: 35%; */
 }
 .project img{
     border-radius: 10px;
@@ -314,7 +321,29 @@ a{
 .project:hover .project-title{
     height: 89%;
 }
+#load-more{
+    display: block;
+    margin: 40px auto; 
+    padding: 15px 30px; 
+    background-color: #ff004f; 
+    color: white; 
+    font-size: 18px; 
+    font-weight: 600; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+#load-more:hover {
+    background-color: #d4003e; 
+    transform: translateY(-3px); 
+}
 
+#load-more:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
 /* -----------------------------contact ----------------------------------*/
 .title-contact{
     color: rgb(123, 12, 226);

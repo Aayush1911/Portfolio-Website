@@ -35,3 +35,10 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 })
+document.getElementById('load-more').addEventListener('click', function () {
+    const hiddenProjects = document.querySelectorAll('.project.hidden');
+    for (let i = 0; i < hiddenProjects.length; i++) {
+        hiddenProjects[i].classList.remove('hidden');
+    }
+    this.style.display = 'none'; // Hide the button after all projects are loaded
+});
