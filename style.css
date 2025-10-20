@@ -114,6 +114,7 @@ a{
 .title-tab{
     display: flex;
     margin: 20px 0px 40px;
+    gap: 16px;
 }
 .tab-links{
     margin-right: 50px;
@@ -154,9 +155,7 @@ a{
 
 
 /* ----------------------------services---------------------------------------- */
-.title-about.service{
-    /* margin: 0; */
-}
+
 .service{
     /* padding: 30px 0; */
     width: 90%;
@@ -197,14 +196,14 @@ a{
 }
 
 .services-list div i {
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 5px;
 }
 
 .services-list div h2 {
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .services-list div p {
@@ -212,13 +211,14 @@ a{
     font-size: 16px;
     color: #ababab;
     margin-bottom: 0;
+    height: 100%;
 }
 
 .services-list div a {
     text-decoration: none;
     color: white;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 10px 20px;
     border: 2px solid transparent;
     border-radius: 5px;
@@ -572,9 +572,9 @@ nav .fa-solid{
     }
     .services-list div{
         width: 55%;
-        height: 40vh;
-        margin-left: 45px;
-        margin-bottom: 20px;
+        height: 45vh;
+        margin-left: 35px;
+        margin-bottom: 30px;
     }
     .project-list{
         display: flex;
